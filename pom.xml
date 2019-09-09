@@ -1,0 +1,27 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- 公司企业名称 -->
+	<groupId>com.gaoyuan</groupId>
+	<!-- 项目名称 -->
+	<artifactId>examweek2Utils</artifactId>
+	<!-- 版本号 -->
+	<version>0.0.1-SNAPSHOT</version>
+
+	<!-- 配置pom文件的配置信息的版本 （统一版本） 指定编码格式 -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring.version>4.3.24.RELEASE</spring.version>
+		<jackson.version>2.8.3</jackson.version>
+	</properties>
+
+	<dependencies>
+	<!-- 运行主工具类 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		</dependencies>
+</project>
